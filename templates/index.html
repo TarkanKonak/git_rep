@@ -1,18 +1,18 @@
 {% extends 'layout.html' %}
-
+{% load static %}
 {% block content %}
 
 
     <div class="row">
         <div class="col-md-12">
-            <h1>Django App</h1>
+            <h1 class="myHeader">Django App</h1>
         </div>
     </div>
     <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur cupiditate deleniti doloremque doloribus, earum facere ipsa laudantium libero maxime modi natus non odit recusandae rerum similique soluta, ullam veniam.</span><span>A, aspernatur deleniti dignissimos itaque laboriosam libero maxime nihil officia quos ratione sint tempora ullam voluptates. Consectetur delectus dolores et itaque laboriosam nihil nulla praesentium quaerat quis, reprehenderit ut voluptatum.</span><span>Dolorem iste nobis officiis provident quod! Alias beatae, commodi consectetur corporis cumque esse, et excepturi facere impedit itaque labore numquam officiis omnis quas repudiandae sapiente vel vero voluptates voluptatibus voluptatum.</span><span>Consequuntur, debitis dolore eos error est expedita id magnam molestias rerum tempore. Ipsam, provident similique? Ab alias, autem delectus deserunt facilis ipsa laboriosam optio pariatur porro quisquam ratione, suscipit veritatis.</span><span>Accusantium blanditiis consequatur culpa cumque dolor itaque laboriosam, laborum libero, necessitatibus nihil nobis nostrum optio quia repellat repellendus totam voluptatem? Animi cupiditate esse hic illum iste pariatur qui reiciendis tempore!</span><span>Ab autem cumque deserunt eaque est iste praesentium? Ab accusamus accusantium aliquid assumenda consequuntur cum dolore eos et hic id illo in nisi quasi quod totam unde ut veritatis, voluptatum.</span><span>Ab accusamus culpa ea eum incidunt nemo non perspiciatis sequi. Animi asperiores at autem beatae, corporis debitis, dignissimos et fuga illo iure magnam nam natus quasi qui tenetur, ut voluptates.</span><span>Asperiores, deserunt eaque est et eveniet exercitationem impedit labore laboriosam neque odit unde ut vero voluptas? Consequuntur eum impedit iure maiores reiciendis repellendus, rerum saepe sequi suscipit vitae voluptatem voluptates.</span><span>A cumque deserunt dicta ducimus eligendi id impedit iste labore, maiores minus nemo pariatur porro quisquam reiciendis similique. Atque consequatur cupiditate debitis dicta illum ipsam maxime porro, sequi similique tempore!</span><span>Accusamus et, eveniet, inventore ipsa laboriosam nam officia quasi reprehenderit suscipit velit vitae voluptatem. Aut blanditiis dolor, enim eos et, illum, in iste labore nemo optio placeat quidem rerum saepe?</span>
     </p>
     <div class="card" style="width: 18rem;">
-        <img src="https://via.placeholder.com/450x300.png" class="card-img-top" alt="...">
+        <img src="{% get_media_prefix %}image.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
